@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <XMLDB PATH="mod/competitivequiz/db" VERSION="20210606" COMMENT="XMLDB file for Moodle mod/competitivequiz">
+    <TABLES>
+      <TABLE NAME="competitivequiz" COMMENT="Default comment for competitivequiz, please edit me">
+        <FIELDS>
+          <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true" />
+        </FIELDS>
+        <KEYS>
+          <KEY NAME="primary" TYPE="primary" FIELDS="id" />
+        </KEYS>
+      </TABLE>
+    </TABLES>
+  </XMLDB>
